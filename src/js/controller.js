@@ -51,6 +51,7 @@ const controlRecipe = async function(){
    
 
   }catch(err){
+    console.log(err);
     recipeView.renderError();
   } 
 
@@ -73,8 +74,6 @@ const controlSearchResults = async function(){
     // Render results
     
     const resultsByPage = model.loadSearchResultsByPage(); 
-
-    console.log(resultsByPage);
 
     resultView.render(resultsByPage);
     
