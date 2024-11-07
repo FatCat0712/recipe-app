@@ -167,6 +167,10 @@ const controlUpload = async function(data){
 
 }
 
+const newFeature = function(){
+  console.log('Welcome the application!');
+}
+
 const init = function(){
   bookmarkView.addHandlerLoadBookmark(controlLoadBookmarks);
   recipeView.addHandlerRender(controlRecipe);
@@ -175,6 +179,7 @@ const init = function(){
   paginationView.addPaginationHandler(controlPagination);
   recipeView.addHandlerBookmark(controlBookmarking);
   addRecipeView.addHandlerSubmit(controlUpload);
+  newFeature();
 }
 
 init();
