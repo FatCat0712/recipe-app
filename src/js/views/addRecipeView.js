@@ -54,17 +54,17 @@ class AddRecipeView extends View{
              <div class="upload__column">
                 <h3 class="upload__heading">Recipe data</h3>
                 <label>Title</label>
-                <input value="TEST712" required name="title" type="text" />
+                <input value="title" required name="title" type="text" />
                 <label>URL</label>
-                <input value="TEST712" required name="sourceUrl" type="text" />
+                <input value="url" required name="sourceUrl" type="text" />
                 <label>Image URL</label>
-                <input value="TEST712" required name="image" type="text" />
+                <input value="url" required name="image" type="text" />
                 <label>Publisher</label>
-                <input value="TEST712" required name="publisher" type="text" />
+                <input value="publisher" required name="publisher" type="text" />
                 <label>Prep time</label>
-                <input value="23" required name="cookingTime" type="number" />
+                <input value="4" lequired name="cookingTime" type="number" />
                 <label>Servings</label>
-                <input value="23" required name="servings" type="number" />
+                <input value="4" required name="servings" type="number" />
                 </div>
 
                 <div class="upload__column">
